@@ -1,0 +1,31 @@
+.button {
+    font-size: 1.2rem;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    color:bisque
+}
+
+.button:hover{
+    opacity: 0.9s; 
+}
+
+.clear{
+    background-color: red;
+}
+
+.operator {
+    background-color: rgb(210, 56, 0);
+}
+
+.equal {
+    grid-column: span 2 ;
+    background-color: yellowgreen;
+}
+
+.button:not(.clear):not(.operator):not(.equal){
+    background-color:gray
+}
+
